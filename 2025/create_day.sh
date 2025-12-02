@@ -17,3 +17,6 @@ touch "day$DAY_PADDED/full.txt"
 
 # Create the jupyter notebook
 touch "day$DAY_PADDED/code.ipynb"
+
+# Link the common utility script
+ln -s "../common/utils.py" "day$DAY_PADDED/utils.py"
